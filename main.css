@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-ul {
+.ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,11 +15,15 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
-li {
+ul {
+    font-family: 'Roboto', sans-serif;
+}
+
+.li {
     float: left;
 }
 
-li a {
+.li a {
     display: block;
     color: white;
     text-align: center;
@@ -29,7 +33,7 @@ li a {
     transition: background-color 0.5s;
 }
 
-li a:hover {
+.li a:hover {
     background-color: #db3a2f;
     transition: background-color 0.5s;
 }
@@ -113,4 +117,37 @@ h3:hover {
 
 .numinput {
     width: 50px;
+}
+
+.ul-right {
+    margin-top: -130px;
+    margin-left: 550px;
+}
+
+.li-a:hover {
+    font-size: 17px;
+    transition: font-size 0.5s;
+}
+
+.li-a {
+    transition: font-size 0.5s;
+}
+
+.features {
+    margin-top: 275px;
+    margin-bottom: -5px;
+    margin-left: 450px;
+}
+
+.features-img {
+    margin-top: -215px;
+    margin-left: 1300px;
+    margin-bottom: 500px;
+    width: 270px;
+    transition: width 0.5s;
+}
+
+.features-img:hover {
+    width: 280px;
+    transition: width 0.5s;
 }
