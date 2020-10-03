@@ -1,6 +1,9 @@
-var template = "<div id=\"IDHERE\"class=\"macro\"> <center> <input type = \"text\" class=\"macrocontent\"> <input type=\"text\" class=\"macrocontent\"> <input type=\"number\" class=\"numinput macrocontent\"> <button id=\"delSelf\" class=\"macrocontent\">X</button></center> </div>";
-var macros = document.getElementById('macros');
-
 document.getElementById('add').onclick = function(ev) {
-    document.getElementById('macros').innerHTML = document.getElementById('macros').innerHTML + template.replace("IDHERE", "0");
+    var name = prompt("Enter a name for macro:");
+    var command = prompt("Enter the chat message/command, that should be executed:");
+    var keybind = prompt("Enter the key-code the macro should use:");
+
+    var output = document.getElementById('output').innerText;
+
+    document.getElementById('output').innerText = `${output}${name}:${command}:${keybind}\n`;
 }

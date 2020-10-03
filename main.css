@@ -151,3 +151,18 @@ h3:hover {
     width: 280px;
     transition: width 0.5s;
 }
+
+#add {
+    position: fixed;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+#output {
+    margin-left: 75px;
+}
+
+.opt {
+    margin-left: 50px;
+}
