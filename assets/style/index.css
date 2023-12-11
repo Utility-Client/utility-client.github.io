@@ -134,9 +134,10 @@ img.logo:hover {
 .highlight {
     background: linear-gradient(130deg, #AA4465 -8.07%, #FF495C 75.11%);
     font-weight: 600;
+    -webkit-background-clip: text;
     background-clip: text;
-    -webkit-background-clip: transparent;
     -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .button-container {
